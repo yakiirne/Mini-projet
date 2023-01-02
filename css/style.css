@@ -1,0 +1,36 @@
+.banner
+{
+    background-image: url('../images/banner-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+}
+
+.banner .ovelay
+{
+    background-color: rgba(0, 0, 0, .65);
+    padding: 8rem 5rem;
+}
+
+.btn-warning
+{
+    background-color: #B95D2C !important;
+    border-color: #B95D2C  !important;
+    color: #fcfcfc !important;
+    transition: .5s;
+}
+
+.btn-warning:hover
+{
+    background-color: #d16e39 !important;
+}
+
+.courses
+{
+    padding: 2.5rem;
+}
+
+.list-group-item:hover
+{
+    color: #4287f5 !important;
+}

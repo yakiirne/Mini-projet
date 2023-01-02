@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body class="bg-light">
+    <div class="container">
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-8">
+                <div class="card p-4 text-center shadow">
+                    <h4 class="mb-4">Sign-Up</h4>
+                    <div class="card-body">
+                        <form class="needs-validation" method="POST" action="index.html" id="user-form">
+                            <div class="mb-3">
+                                <label for="userName" class="form-label">Username : </label>
+                                <input type="text" class="form-control" name="userName" id="userName" placeholder="Choose a username" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                  </div>
+                            </div>
+    
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email : </label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                            </div>
+    
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password : </label>
+                                <input type="password" class="form-control" id="password" placeholder="Enter a strong password" required>
+                            </div>
+    
+                            <div class="mb-3">
+                                <label for="confirmPassword" class="form-label">Confirm Password : </label>
+                                <input type="password" class="form-control" id="confirmPassword" placeholder="Reenter your password" required>
+                            </div>
+    
+                            <div class="mb-3 mt-4">
+                                <button type="submit" class="btn btn-success w-100">Sign up</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
